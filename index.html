@@ -10,67 +10,82 @@
 </head>
 <body>
     <header class="neutral-theme">
-        <h1>Hello! My name is <span>Katherine Stone</span>.<br>I am a Full Stack Developer</h1><br>
-        <a href="#" class="button">Find out more</a>
+        <h1>Hello! My name is <span class="header-highlight">Katherine Stone</span>.<br>I'm a Full Stack Developer</h1><br>
+        <a href="#about" class="button header-link">Find out more</a>
     </header>
     <main>
         <!--main is content inside of body and does not contain repeated content(across pages)-->
-        <section class="about primary-theme">
+        <section id="about" class="about primary-theme">
             <h2>About Me</h2>
             <div class="about-container">
                 <img class="about-img" src="/images/profile.jpg" alt="a photograph of Katherine. She is a 47 year old woman who is sitting in her office. She is smiling.">
                 <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#" class="button">My Resume</a>
+                    <p>I have 20 years of software development experience primarily in the Java ecosystem. In the last 3 years I have developed a keen interest in Front-end development and would love to shift my attention there using React, Vue.js or Angular. I believe this would blend my love of development with my interest in artistic pursuits perfectly. At the same time, I am happy to develop on the full stack which would leverage my experience.</p>
+                        
+                    <p>Throughout my career, I've developed and maintained numerous successful enterprise web applications. I have experience with all facets of the software development life cycle including requirements gathering, system design, implementation, CI/CD, deployment, testing, and maintenance.</p>
+                        
+                    <p>My approach is to learn all I can about the area I am working with in an application whether REST best practices, Vuetify components, or SpringBoot conventions. I then apply this to the project and communicate it to my teammates. I am not afraid to ask questions and have historically been involved in technology communities in order to stay up to date and have a knowledge base to use when needed. I value the benefits of Pair Programming and have several years of experience working remotely. I have worked in teams where fast delivery was a must.</p>
+                        
+                    <p>Self-Motivated, Easy to Work With, and Team Oriented. Bridge builder.</p>
+                    <a href="./KStoneResumePublic.pdf" download="kstoneresume" class="button">My Resume</a>
                 </div>
             </div>
-            <blockquote>I am a Pollinator... of ideas.</blockquote>
+            <blockquote>"She leaves no crevice of an app unexplored."
+            <cite>- Gopichand Bhaskaruni a team mate of Kathy's.</cite>
+            </blockquote>
         </section>
-        <section>
+        <section class="neutral-theme">
             <h2>Projects</h2>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder for description text">
+                <div class="article-text">
+                <h3>Doggie Favs</h3>
+                <p>Select your favorite dogs from a Dog API using VueJS.</p>
+                <a href="https://snow-bow-adapter.glitch.me/" class="button">See it live</a>
+                <a href="https://276b1d11-4d7d-4b69-b18d-8e71b51ad7e2@api.glitch.com/git/snow-bow-adapter" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/doggoGram.png" class="article-img" alt="Screen shot of dog fav application.">
             </article>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder for description text">
+                <div class="article-text">
+                <h3>Typing Game</h3>
+                <p>See if you can conjure faster typing using Javascript.</p>
+                <a href="https://shining-longhaired-bramble.glitch.me/" class="button">See it live</a>
+                <a href="https://276b1d11-4d7d-4b69-b18d-8e71b51ad7e2@api.glitch.com/git/shining-longhaired-bramble" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/typingGame.png"  class="article-img" alt="Screen shot of typing game.">
             </article>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder for description text">
+                <div class="article-text">
+                <h3>TODOs.</h3>
+                <p>TODO list using REST call and vanilla Javascript.</p>
+                <a href="https://literate-splendid-plutonium.glitch.me/" class="button">See it live</a>
+                <a href="https://276b1d11-4d7d-4b69-b18d-8e71b51ad7e2@api.glitch.com/git/literate-splendid-plutonium" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/TodoApp.png"  class="article-img" alt="Screen shot of TODO app.">
+            </article>
+            <article>
+                <div class="article-text">
+                <h3>Macaron delivery using SpringBoot and Angular.</h3>
+                <p>Coming soon!</p>
+                <a href="#" class="button">See it live</a>
+                <a href="#" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/project.jpg"  class="article-img" alt="placeholder for description text">
             </article>
         </section>
-        <section>
+        <section class="contact primary-theme">
             <h2>Contact</h2>
             <p>If you'd like to work with me, you can drop me a message!</p>
-            <a href="mailto:email@example.com">Let's talk</a>
+            <a href="https://www.linkedin.com/in/katherine-stone-6725561/" class="button">Let's talk</a>
         </section>
     </main>
     <footer>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/katherine-stone-6725561/">Linked In</a>
+        <ul class="social">
+            <li class="social-item">
+                <a class="social-link linkedin" href="https://www.linkedin.com/in/katherine-stone-6725561/">Linked In</a>
             </li>
-            <li>
-                <a href="#">Twitter</a>
-            </li>
-            <li>
-                <a href="https://github.com/kastone">Github</a>
-            </li>
-            <li>
-                <a href="#">YouTube</a>
+            <li cclass="social-item">
+                <a class="social-link github" href="https://github.com/kastone">Github</a>
             </li>
         </ul>
         <p>&copy; 2021 - Portfolio design by Katherine Stone</p>
